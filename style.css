@@ -1,0 +1,32 @@
+.items{
+    padding: 15px;
+  }
+  .header{
+    padding:15px;
+    border:5px solid blue;
+      cursor:pointer;
+      color: aliceblue;
+      font-size: 19px;
+      border-radius: 10px;
+  }
+  .body{
+    padding:15px;
+    border:5px solid red;
+    display:none;
+    font-size: 20px;
+    color: blue;
+  }
+  .body.active{
+    display: block;
+  }
+  .accordion{
+    background-color: chartreuse;
+    width:500px;
+    margin:0 auto;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 15px;
+  }
+  body{
+    background-color: bisque;
+  }
+  
